@@ -1,0 +1,30 @@
+{
+  "name": "talent_guru",
+  "version": "1.0.0",
+  "description": "talent explorer",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "bluebird": "^3.5.1",
+    "glob": "^7.1.2",
+    "hapi": "^17.2.0",
+    "hapi-auth-cookie": "^8.0.0",
+    "hapi-auth-jwt2": "^7.3.0",
+    "jsonwebtoken": "^8.1.0",
+    "md5": "^2.2.1",
+    "mysql": "github:mysqljs/mysql",
+    "mysql2": "^1.5.1",
+    "sequelize": "^4.28.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "talent",
+    "guru",
+    "explorer"
+  ],
+  "author": "Deepak Jois",
+  "license": "ISC"
+}
